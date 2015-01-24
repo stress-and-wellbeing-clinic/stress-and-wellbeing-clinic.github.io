@@ -10,7 +10,7 @@
       <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav  pull-right">
         {% for page in site.pages %}
         {% if page.title %}
         <li class="active">  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
