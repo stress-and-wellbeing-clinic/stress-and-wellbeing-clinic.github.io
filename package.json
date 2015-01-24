@@ -1,0 +1,11 @@
+{
+  "name": "obehico-preview",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "lessc css/main.less css/main.css && cp lib/bootstrap/dist/js/* js/"
+  },
+  "author": "",
+  "license": "MIT"
+}
