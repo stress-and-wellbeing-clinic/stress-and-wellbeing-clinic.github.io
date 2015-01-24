@@ -1,23 +1,27 @@
 
 <!-- FOOTER -->
-<footer>
-  <p class="pull-right"><a href="#">Back to top</a></p>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right"><a href="#">Back to top</a></p>
 
-  <p>&copy; 2015 {{ site.title }}. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="text-muted">
+      &copy; 2015 {{ site.title }}. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+      {% if site.twitter_username %}
 
-  {% if site.twitter_username %}
-  <li>
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <span class="username">{{ site.twitter_username }}</span>
-    </a>
-  </li>
-  {% endif %}
-  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-  <p>{{ site.description }}</p>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <span class="username">{{ site.twitter_username }}</span>
+      </a>
+
+      {% endif %}
+
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {{ site.description }}
+    </p>
+  </div>
 </footer>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
