@@ -1,9 +1,9 @@
 {
-  "name": "obehico-preview",
+  "name": "stress-and-wellbeing-clinic",
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve -P 4001",
     "less": "npm run less-org && npm run less-individual && npm run less-corp",
     "less-org": "lessc css/main-org.less css/main-org.css",
     "less-individual": "lessc css/main-individual.less css/main-individual.css",
