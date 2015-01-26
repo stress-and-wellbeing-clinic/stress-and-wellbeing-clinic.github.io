@@ -8,4 +8,4 @@ categories: general
 Obehico
 ----
 
-My new website andd first post!
+My new website and first post!
