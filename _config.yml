@@ -1,0 +1,22 @@
+# Site settings
+title: The Stress and Wellbeing Clinic
+email: obehi@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/obehico-preview" # the subpath of your site, e.g. /blog/
+url: "http://TODO" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+phone_number: 00000 000 000
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - lib
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - css/*.less
+  - npm-debug.log
