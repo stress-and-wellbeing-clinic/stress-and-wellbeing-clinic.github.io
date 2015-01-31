@@ -1,4 +1,4 @@
-###APPROACH:
+###Approuch
 
 In the UK over 13 million working days are lost every year because of stress. Stress is believed to
 
@@ -23,7 +23,7 @@ which include working with individuals and teams to manage stress & anxieties, o
 and develop quality health and wellbeing.
 
 
-###What is Coaching:
+###What is Coaching
 
 Coaching is defined as “a collaborative solution-focused, results-orientated and systematic
 
