@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "Built with Jeykll and served from Github!"
 date:   2015-01-24 08:25:02
 categories: techie

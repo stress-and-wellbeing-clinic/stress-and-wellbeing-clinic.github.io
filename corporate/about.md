@@ -1,6 +1,6 @@
 ---
 layout: corporate/page
-title: About
+title: About Us
 brand: corporate
 permalink: /corporate/about/
 ---

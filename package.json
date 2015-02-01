@@ -11,5 +11,8 @@
     "build": "npm run less && cp lib/bootstrap/dist/js/* js/"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "less": "^2.3.0"
+  }
 }

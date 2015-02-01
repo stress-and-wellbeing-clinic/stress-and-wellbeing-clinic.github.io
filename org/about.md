@@ -1,6 +1,6 @@
 ---
 layout: org/page
-title: About
+title: About Us
 permalink: /about/
 ---
 {% include common/about.md %}

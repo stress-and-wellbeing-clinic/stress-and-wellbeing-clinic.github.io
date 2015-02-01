@@ -1,6 +1,6 @@
 ---
 layout: individual/page
-title: About
+title: About Us
 brand: individual
 permalink: /individual/about/
 ---

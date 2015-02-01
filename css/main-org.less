@@ -1,10 +1,14 @@
-// Core variables and mixins
-@import "../lib/bootstrap/less/bootstrap.less";
-@import "../lib/bootstrap/less/theme.less";
-@import "variables.less";
+@import "main.less";
 
-// Skin
-@import "skin.less";
+@body-bg:  lighten(@logo-blue, 35%);
+@gray-base: darken(@logo-blue, 35%);
 
-// Responsive
-@import "responsive.less";
+@navbar-default-color: @logo-blue;
+.navbar-default .navbar-nav > li > a { color: @logo-blue !important; }
+.navbar-default .navbar-nav > li > a:hover { color: darken(@logo-blue, 30%) !important; }
+
+@jumbotron-bg:  @logo-blue;
+@jumbotron-color: #eee;
+@jumbotron-heading-color: white;
+
+@btn-default-color: @logo-blue;
