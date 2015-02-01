@@ -2,13 +2,18 @@
 
 @font-family-sans-serif: 'Imprima', Verdana, Helvetica, sans-serif;
 @font-family-serif: 'Nixie One', Georgia, serif;
-
 @font-family-base: @font-family-sans-serif;
-
 @headings-font-family: @font-family-serif;
 
+@body-bg: #C7E0DA;
 
-@body-bg: #aaeeee;
+@gray-base: darken(@body-bg, 75%);
+
+@navbar-default-color: @logo-blue;
+.navbar-default .navbar-nav > li > a { color: @logo-blue !important; }
+.navbar-default .navbar-nav > li > a:hover { color: darken(@logo-blue, 30%) !important; }
+
+
 @jumbotron-bg: darken(@body-bg, 20%);
 @jumbotron-color: white;
 @jumbotron-heading-color: white;
